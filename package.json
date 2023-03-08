@@ -1,5 +1,5 @@
 {
-  "name": "factory",
+  "name": "@07abhishekrock/template-factory",
   "version": "1.0.3",
   "description": "Factory cli to bootstrap custom set of projects",
   "main": "index.js",
