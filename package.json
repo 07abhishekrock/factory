@@ -1,5 +1,5 @@
 {
-  "name": "@07abhishekrock/template-factory",
+  "name": "kreator-templates",
   "version": "1.0.3",
   "description": "Factory cli to bootstrap custom set of projects",
   "main": "index.js",
