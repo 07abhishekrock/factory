@@ -1,0 +1,7 @@
+{
+  "name": "Command Line App",
+  "description": "App that runs on your favourite cli - powered by node.js",
+  "messages": {
+    "option-text": "Select the type of cli"
+  }
+}

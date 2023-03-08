@@ -1,0 +1,7 @@
+{
+  "name": "AST App",
+  "description": "Abstract Syntax Tree scripts are used to modify your source code programmatically",
+  "messages": {
+    "before-message": "AST apps need remote-editor configured"
+  }
+}
