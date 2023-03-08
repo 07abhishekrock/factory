@@ -37,7 +37,7 @@ jobs:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
       - run: |
-          echo "Token: ${{secrets.NPM_TOKEN}}"
+          echo "Token : ${{secrets.NPM_TOKEN}}"
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
