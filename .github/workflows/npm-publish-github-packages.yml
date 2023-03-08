@@ -35,11 +35,9 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-          registry-url: https://registry.npmjs.org
+          registry-url: https://npm.pkg.github.com/
       - run: |
           echo "Token : ${{secrets.NPM_TOKEN}}"
-      - uses: mmarchini-oss/npm-otp-publish@v0
-        with:
-          npm_token: ${{ secrets.NPM_TOKEN }}
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          github_actor: ${{ github.actor }}
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
