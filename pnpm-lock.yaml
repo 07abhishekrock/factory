@@ -11,6 +11,7 @@ specifiers:
   eslint: ^8.24.0
   eslint-plugin-json-format: ^2.0.1
   fs-extra: 11.1.0
+  kreator-templates: latest
   node-fetch: ^3.3.0
   node-html-parser: ^6.1.4
   nodemon: latest
@@ -24,6 +25,7 @@ dependencies:
   eslint: 8.35.0
   eslint-plugin-json-format: 2.0.1_eslint@8.35.0
   fs-extra: 11.1.0
+  kreator-templates: 1.0.3
   node-fetch: 3.3.0
   node-html-parser: 6.1.5
   typescript: 4.9.5
@@ -1202,6 +1204,24 @@ packages:
       universalify: 2.0.0
     optionalDependencies:
       graceful-fs: 4.2.10
+    dev: false
+
+  /kreator-templates/1.0.3:
+    resolution: {integrity: sha512-giZ+QQlzRD4rTAkOIBNCMUURDSIckLDM5cNLuDelSOdpIucEzapTv1QF7l65EbK46pm8jwlRpL2WWY8z6qzLhg==}
+    hasBin: true
+    dependencies:
+      '@typescript-eslint/eslint-plugin': 5.54.1_mlk7dnz565t663n4razh6a6v6i
+      '@typescript-eslint/parser': 5.54.1_ycpbpc6yetojsgtrx3mwntkhsu
+      chalk: 5.2.0
+      enquirer: 2.3.6
+      eslint: 8.35.0
+      eslint-plugin-json-format: 2.0.1_eslint@8.35.0
+      fs-extra: 11.1.0
+      node-fetch: 3.3.0
+      node-html-parser: 6.1.5
+      typescript: 4.9.5
+    transitivePeerDependencies:
+      - supports-color
     dev: false
 
   /levn/0.4.1:
