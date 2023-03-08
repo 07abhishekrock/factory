@@ -1,10 +1,10 @@
 {
-  "name": "factory",
-  "version": "1.0.3",
+  "name": "kreator-templates",
+  "version": "1.0.5",
   "description": "Factory cli to bootstrap custom set of projects",
   "main": "index.js",
   "files": [
-    "dist",
+    "dist/index.js",
     "README.md",
     "templates"
   ],
@@ -19,22 +19,21 @@
     "build": "esbuild src/index.ts --bundle --platform=node --outdir=dist"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.39.0",
-    "@typescript-eslint/parser": "^5.39.0",
     "chalk": "^5.2.0",
     "enquirer": "^2.3.6",
-    "eslint": "^8.24.0",
-    "eslint-plugin-json-format": "^2.0.1",
-    "node-fetch": "^3.3.0",
-    "node-html-parser": "^6.1.4",
-    "typescript": "^4.4.0",
-    "fs-extra": "11.1.0"
+    "fs-extra": "11.1.0",
+    "kreator-templates": "^1.0.4"
   },
   "devDependencies": {
+    "@types/fs-extra": "11.0.1",
     "@types/node": "latest",
+    "@typescript-eslint/eslint-plugin": "^5.39.0",
+    "@typescript-eslint/parser": "^5.39.0",
     "esbuild": "latest",
+    "eslint": "^8.24.0",
+    "eslint-plugin-json-format": "^2.0.1",
     "nodemon": "latest",
-    "@types/fs-extra": "11.0.1"
+    "typescript": "^4.4.0"
   },
   "keywords": [],
   "author": "",
