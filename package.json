@@ -1,8 +1,8 @@
 {
   "name": "kreator-templates",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Factory cli to bootstrap custom set of projects",
-  "main": "index.js",
+  "main": "dist/index.js",
   "files": [
     "dist/index.js",
     "README.md",
