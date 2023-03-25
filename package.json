@@ -1,6 +1,6 @@
 {
   "name": "kreator-templates",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Factory cli to bootstrap custom set of projects",
   "main": "dist/index.js",
   "files": [
@@ -21,8 +21,7 @@
   "dependencies": {
     "chalk": "^5.2.0",
     "enquirer": "^2.3.6",
-    "fs-extra": "11.1.0",
-    "kreator-templates": "^1.0.4"
+    "fs-extra": "11.1.0"
   },
   "devDependencies": {
     "@types/fs-extra": "11.0.1",

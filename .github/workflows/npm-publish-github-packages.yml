@@ -38,6 +38,6 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: |
           echo "Token : ${{secrets.NPM_TOKEN}}"
-      - run: npm publish
+      - run: pnpm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
