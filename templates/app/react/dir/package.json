@@ -1,5 +1,5 @@
 {
-  "name": "pocket-yt-music",
+  "name": "my-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -17,12 +17,14 @@
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@groww-tech/eslint-config": "latest",
-    "@typescript-eslint/eslint-plugin": "^5.55.0",
-    "@typescript-eslint/parser": "^5.55.0",
+    "@groww-tech/eslint-plugin-internal": "latest",
+    "@typescript-eslint/eslint-plugin": "4.23.0",
+    "@typescript-eslint/parser": "4.23.0",
     "eslint-plugin-react-hooks": "^4.4.0",
     "@vitejs/plugin-react-swc": "^3.0.0",
-    "eslint": "^8.36.0",
+    "eslint": "7.26.0",
     "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-import": "2.22.1",
     "typescript": "^4.9.3",
     "vite": "^4.2.0"
   }
