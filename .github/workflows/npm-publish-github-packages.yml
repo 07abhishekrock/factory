@@ -23,27 +23,9 @@ jobs:
           run_install: false
       - run: pnpm i
       - run: pnpm build
-
-  publish-gpr:
-    needs: build
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      packages: write
-    steps:
-      - uses: actions/checkout@v3
-      - uses: pnpm/action-setup@v2
-        name: Install pnpm
-        id: pnpm-install
-        with:
-          version: 7
-          run_install: false
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 16
-          registry-url: https://registry.npmjs.org/
+      - name: 'Pnpm publish'
       - run: |
           echo "Token : ${{secrets.NPM_TOKEN}}"
-      - run: pnpm publish
+      - run: pnpm publish --publish-branch release
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
