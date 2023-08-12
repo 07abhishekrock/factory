@@ -3,6 +3,7 @@ module.exports = {
     'node': true,
   },
   'extends': [
+    '@groww-tech',
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended'
   ],
@@ -68,4 +69,4 @@ module.exports = {
       }
     ]
   }
-}
+};
