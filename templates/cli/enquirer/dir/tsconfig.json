@@ -31,13 +31,12 @@
     "noUnusedLocals": true, // Report errors on unused local variables.
     "noUnusedParameters": true, // Report errors on unused parameters in functions
     "paths": {},
-    "typeroots": [
+    "typeRoots": [
       "index.d.ts"
     ]
   },
   "include": ["./**/*.ts"],
   "exclude": [
     "node_modules/**/*"
-  ],
-  "files": []
+  ]
 }
