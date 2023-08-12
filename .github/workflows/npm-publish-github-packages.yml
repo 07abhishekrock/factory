@@ -24,7 +24,7 @@ jobs:
       - run: pnpm i
       - run: pnpm build
       - name: 'Pnpm publish'
-      - run: |
+        run: |
           echo "Token : ${{secrets.NPM_TOKEN}}"
       - run: pnpm publish --publish-branch release
         env:
