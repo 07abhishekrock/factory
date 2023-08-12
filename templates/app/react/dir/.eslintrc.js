@@ -3,9 +3,9 @@ module.exports = {
     'node': true,
   },
   'extends': [
-    '@groww-tech',
     'eslint:recommended',
-    'plugin:@typescript-eslint/recommended'
+    'plugin:@typescript-eslint/recommended',
+    '@groww-tech'
   ],
   'overrides': [
   ],
