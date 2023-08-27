@@ -9,8 +9,9 @@ on:
 jobs:
   build:
     runs-on: 'ubuntu-18.04'
-    matrix:
-      node: [10, 12, 14]
+    strategy: 
+      matrix:
+        node: [10, 12, 14]
     steps:
       # Configures the node version used on GitHub-hosted runners
       - uses: actions/setup-node@v2
