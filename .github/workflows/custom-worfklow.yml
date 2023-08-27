@@ -1,0 +1,20 @@
+name: Node.js Package
+
+on:
+  workflow-dispatch:
+  push:
+    branches: [ test/workflow ]
+
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        node: [10, 12, 14]
+      steps:
+        # Configures the node version used on GitHub-hosted runners
+        - uses: actions/setup-node@v2
+          with:
+            # The Node.js version to configure
+            node-version: ${{ matrix.node }}
+
