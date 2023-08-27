@@ -1,7 +1,7 @@
 name: Node.js Package
 
 on:
-  workflow-dispatch:
+  workflow_dispatch:
   push:
     branches: [ test/workflow ]
 
