@@ -8,14 +8,8 @@ on:
 
 jobs:
   build:
-    runs-on: 'ubuntu-18.04'
-    strategy: 
-      matrix:
-        node: [10, 12, 14]
+    runs-on: ubuntu-latest
     steps:
       # Configures the node version used on GitHub-hosted runners
-      - uses: actions/setup-node@v2
-        with:
-          # The Node.js version to configure
-          node-version: ${{ matrix.node }}
-
+      - run: ls /usr/bin
+        
